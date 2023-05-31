@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeenOnLearning.API", "KeenOnLearning.API.csproj", "{75F248EF-C2A7-48B0-B0E2-FF86A7F27551}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeenOnLearning.API", "KeenOnLearning.API.csproj", "{75F248EF-C2A7-48B0-B0E2-FF86A7F27551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeenOnLearning.Domain", "..\KeenOnLearning.Domain\KeenOnLearning.Domain.csproj", "{076146B3-B27E-41D7-B0A5-668A5490BD91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeenOnLearning.Infrastructure", "..\KeenOnLearning.Infrastructure\KeenOnLearning.Infrastructure.csproj", "{B2FA0107-F976-4388-8854-0FC9EB361068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeenOnLearning.Application", "..\KeenOnLearning.Application\KeenOnLearning.Application.csproj", "{E92B41CE-06DE-4034-A2DA-EEE5F4EEED68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeenOnLearning.Presentation", "..\KeenOnLearning.Presentation\KeenOnLearning.Presentation.csproj", "{4EBC6D29-A9AE-4C21-84CC-C2300D658B36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{75F248EF-C2A7-48B0-B0E2-FF86A7F27551}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75F248EF-C2A7-48B0-B0E2-FF86A7F27551}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75F248EF-C2A7-48B0-B0E2-FF86A7F27551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076146B3-B27E-41D7-B0A5-668A5490BD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076146B3-B27E-41D7-B0A5-668A5490BD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076146B3-B27E-41D7-B0A5-668A5490BD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076146B3-B27E-41D7-B0A5-668A5490BD91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2FA0107-F976-4388-8854-0FC9EB361068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2FA0107-F976-4388-8854-0FC9EB361068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2FA0107-F976-4388-8854-0FC9EB361068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2FA0107-F976-4388-8854-0FC9EB361068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E92B41CE-06DE-4034-A2DA-EEE5F4EEED68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E92B41CE-06DE-4034-A2DA-EEE5F4EEED68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E92B41CE-06DE-4034-A2DA-EEE5F4EEED68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E92B41CE-06DE-4034-A2DA-EEE5F4EEED68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBC6D29-A9AE-4C21-84CC-C2300D658B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBC6D29-A9AE-4C21-84CC-C2300D658B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBC6D29-A9AE-4C21-84CC-C2300D658B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBC6D29-A9AE-4C21-84CC-C2300D658B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
