@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeenOnLearning.Infrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeenOnLearning.Application", "..\KeenOnLearning.Application\KeenOnLearning.Application.csproj", "{E92B41CE-06DE-4034-A2DA-EEE5F4EEED68}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstraction", "Abstraction", "{5E1371B8-27EC-4A17-848D-02CFA6EAEFB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
